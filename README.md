@@ -1,2 +1,19 @@
-# malik-brand-ai-video
-MALIK BRAND — OFFICIAL AI MUSIC VIDEO GENERATOR | Artist: TAHIR NAZEER (طاہر نظیر) | Cinematic 04:28 AI Video Pipeline with 14 Storyboard Scenes, Day/Night Lighting Rules &amp; Face Retention Engine.
+# MALIK BRAND — AI MUSIC VIDEO GENERATOR
+**آرٹسٹ:** طاہر نظیر (TAHIR NAZEER)  
+**گانے کا نام:** ملک برینڈ (MALIK BRAND)  
+**دورانیہ:** 04:28  
+
+## موبائل کے ذریعے GitHub پر اپ لوڈ کرنے کا آسان طریقہ:
+
+1. اپنے اینڈرائیڈ موبائل کے Chrome براؤزر میں [GitHub.com](https://github.com) کھولیں۔
+2. نیا Repository بنائیں اور اس کا نام رکھیں: `malik-brand-ai-video`
+3. اس ریپوزیٹری کے اندر اپنی یہ چاروں فائلیں اپ لوڈ کریں:
+   - `index.html`
+   - `style.css`
+   - `video-generator.js`
+   - `README.md`
+4. اپ لوڈ کرنے کے بعد **Settings** میں جائیں، پھر **Pages** والے آپشن پر کلک کریں۔
+5. وہاں **Branch** کو `main` یا `master` پر سیٹ کر کے **Save** کا بٹن دبا دیں۔
+6. 1 منٹ کے اندر GitHub آپ کو ایک لائیو ویب لنک (URL) دے گا۔
+7. اس لنک کو اپنے موبائل براؤزر میں کھولیں، اپنی 4 صاف تصاویر اپ لوڈ کریں اور **"ویڈیو جنریشن شروع کریں"** کا بٹن دبائیں۔
+8. پروسیس مکمل ہونے کے بعد تیار شدہ ویڈیو **ڈاؤن لوڈ** کریں اور **VN Editor** میں اپنے اصل گانے کی آڈیو لگا لیں۔

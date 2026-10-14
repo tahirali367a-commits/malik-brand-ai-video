@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALIK BRAND - TAHIR NAZEER AI MUSIC VIDEO GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>MALIK BRAND AI MUSIC VIDEO GENERATOR</h1>
+            <p>فنکار: طاہر نظیر (TAHIR NAZEER) | گانے کا دورانیہ: 04:28</p>
+        </header>
+
+        <div class="main-card">
+            <h2>مرحلہ 1: اپنی تصاویر اپ لوڈ کریں</h2>
+            <p>براہ کرم اپنی کم از کم 4 صاف تصاویر منتخب کریں تاکہ AI آپ کے چہرے کی شناخت (Face Retention) کو برقرار رکھ سکے۔</p>
+            
+            <input type="file" id="userPhotos" multiple accept="image/*">
+            <div id="previewArea" class="preview-grid"></div>
+        </div>
+
+        <div class="main-card">
+            <h2>مرحلہ 2: ویڈیو کا سنیماٹک موڈ اور اسٹوری سیٹنگ</h2>
+            <div class="settings-box">
+                <label>اسٹوری موڈ:</label>
+                <select id="storyMode">
+                    <option value="full_story">مکمل 4 منٹ 28 سیکنڈ سنیماٹک اسٹوری (دن اور رات کا امتزاج)</option>
+                </select>
+                <p class="note">⚠️ اصول یاد رکھیں: 01:46 سے 02:10 (24 سیکنڈ) تک رات کا روشن کرکٹ اسٹیڈیم ہوگا، اور باقی پوری ویڈیو دن کی روشن، رنگین اور خوبصورت روشنی میں ہوگی۔</p>
+            </div>
+            
+            <button id="generateBtn" class="primary-btn" onclick="startVideoGeneration()">ویڈیو جنریشن شروع کریں</button>
+        </div>
+
+        <div class="main-card" id="statusCard" style="display: none;">
+            <h2>مرحلہ 3: پروسیسنگ اور سینز کی تیاری</h2>
+            <div id="progressBarContainer">
+                <div id="progressBar">0%</div>
+            </div>
+            <p id="statusText">تصاویر اور اسٹوری کا تجزیہ کیا جا رہا ہے...</p>
+        </div>
+
+        <div class="main-card" id="resultCard" style="display: none;">
+            <h2>مرحلہ 4: تیار شدہ ویڈیو</h2>
+            <p>آپ کے گانے کے حصوں کے مطابق ویڈیو کلپس تیار ہو چکے ہیں۔ نیچے دیے گئے بٹن سے ڈاؤن لوڈ کریں اور VN Editor میں اصل آڈیو لگائیں۔</p>
+            <video id="outputVideoPlayer" controls style="width:150px; max-height:300px; background:#000; display:block; margin: 15px auto;"></video>
+            <a id="downloadLink" class="success-btn" style="display:none;">مکمل ویڈیو گیلری میں ڈاؤن لوڈ کریں (MP4)</a>
+        </div>
+    </div>
+
+    <!-- اصل جادوئی انجن فائل کا لنک -->
+    <script src="video-generator.js"></script>
+</body>
+</html>
